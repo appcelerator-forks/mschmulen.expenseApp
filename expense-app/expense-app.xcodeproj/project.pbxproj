@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE193ED31816C513004B1082 /* attachment-empty.png in Resources */ = {isa = PBXBuildFile; fileRef = AE193ED21816C513004B1082 /* attachment-empty.png */; };
 		AE578D9017F6F6590036CF07 /* neg_itemize_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AE578D8E17F6F6590036CF07 /* neg_itemize_icon.png */; };
 		AE578D9117F6F6590036CF07 /* neg_itemize_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AE578D8F17F6F6590036CF07 /* neg_itemize_icon@2x.png */; };
 		AE578D9C17F6F69E0036CF07 /* neg_attendee_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AE578D9817F6F69E0036CF07 /* neg_attendee_icon.png */; };
@@ -30,7 +31,6 @@
 		AEC5B92217F6B5F600A2A565 /* ExpenseListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC5B92117F6B5F600A2A565 /* ExpenseListViewController.m */; };
 		AEC5B92517F6B60200A2A565 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC5B92417F6B60200A2A565 /* HomeViewController.m */; };
 		AEC5B92817F6B60B00A2A565 /* ExpenseDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC5B92717F6B60B00A2A565 /* ExpenseDetailViewController.m */; };
-		AEEA5E6C17FA25550024A46D /* Mark_Dave.png in Resources */ = {isa = PBXBuildFile; fileRef = AEEA5E6A17FA25550024A46D /* Mark_Dave.png */; };
 		AEEA5E8F17FA3AC40024A46D /* ExpenseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AEEA5E8E17FA3AC40024A46D /* ExpenseModel.m */; };
 		AEEA5EA517FA3CCF0024A46D /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = AEEA5E9317FA3CCF0024A46D /* AFHTTPRequestOperation.m */; };
 		AEEA5EA617FA3CCF0024A46D /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AEEA5E9517FA3CCF0024A46D /* AFHTTPRequestOperationManager.m */; };
@@ -63,6 +63,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AE193ED21816C513004B1082 /* attachment-empty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "attachment-empty.png"; sourceTree = "<group>"; };
 		AE578D8E17F6F6590036CF07 /* neg_itemize_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = neg_itemize_icon.png; sourceTree = "<group>"; };
 		AE578D8F17F6F6590036CF07 /* neg_itemize_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "neg_itemize_icon@2x.png"; sourceTree = "<group>"; };
 		AE578D9817F6F69E0036CF07 /* neg_attendee_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = neg_attendee_icon.png; sourceTree = "<group>"; };
@@ -94,7 +95,6 @@
 		AEC5B92417F6B60200A2A565 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		AEC5B92617F6B60B00A2A565 /* ExpenseDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpenseDetailViewController.h; sourceTree = "<group>"; };
 		AEC5B92717F6B60B00A2A565 /* ExpenseDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpenseDetailViewController.m; sourceTree = "<group>"; };
-		AEEA5E6A17FA25550024A46D /* Mark_Dave.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mark_Dave.png; sourceTree = "<group>"; };
 		AEEA5E8D17FA3AC40024A46D /* ExpenseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpenseModel.h; sourceTree = "<group>"; };
 		AEEA5E8E17FA3AC40024A46D /* ExpenseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpenseModel.m; sourceTree = "<group>"; };
 		AEEA5E9217FA3CCF0024A46D /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
@@ -217,7 +217,7 @@
 				AE578D8F17F6F6590036CF07 /* neg_itemize_icon@2x.png */,
 				AE578D9817F6F69E0036CF07 /* neg_attendee_icon.png */,
 				AE578D9917F6F69E0036CF07 /* neg_attendee_icon@2x.png */,
-				AEEA5E6A17FA25550024A46D /* Mark_Dave.png */,
+				AE193ED21816C513004B1082 /* attachment-empty.png */,
 				AE578D9A17F6F69E0036CF07 /* neg_expense_icon.png */,
 				AE578D9B17F6F69E0036CF07 /* neg_expense_icon@2x.png */,
 				AEEA5EC817FA3E170024A46D /* AFAppDotNetAPIClient.h */,
@@ -395,12 +395,12 @@
 				AE578D9C17F6F69E0036CF07 /* neg_attendee_icon.png in Resources */,
 				AEC5B90417F6B59B00A2A565 /* Images.xcassets in Resources */,
 				AEC5B8F317F6B59B00A2A565 /* InfoPlist.strings in Resources */,
-				AEEA5E6C17FA25550024A46D /* Mark_Dave.png in Resources */,
 				AEC5B8FC17F6B59B00A2A565 /* Main.storyboard in Resources */,
 				AE578D9017F6F6590036CF07 /* neg_itemize_icon.png in Resources */,
 				AE578D9117F6F6590036CF07 /* neg_itemize_icon@2x.png in Resources */,
 				AE578D9E17F6F69E0036CF07 /* neg_expense_icon.png in Resources */,
 				AE578D9F17F6F69E0036CF07 /* neg_expense_icon@2x.png in Resources */,
+				AE193ED31816C513004B1082 /* attachment-empty.png in Resources */,
 				AE578D9D17F6F69E0036CF07 /* neg_attendee_icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

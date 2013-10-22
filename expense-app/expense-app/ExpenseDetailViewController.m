@@ -18,8 +18,6 @@
 @property (weak, nonatomic) IBOutlet UIImageView *imageViewReceipt;
 @property (weak, nonatomic) IBOutlet UIBarButtonItem *receiptImageCameraButton;
 @property (weak, nonatomic) IBOutlet UITextField *textFieldAmount;
-@property (weak, nonatomic) IBOutlet UILabel *labelAttendeeOne;
-@property (weak, nonatomic) IBOutlet UILabel *labelAttendeeTwo;
 @property (weak, nonatomic) IBOutlet UILabel *labelCurrentTime;
 @property (weak, nonatomic) IBOutlet UILabel *labelCurrentLocation;
 @property (weak, nonatomic) IBOutlet UITextField *textFieldName;
@@ -87,8 +85,8 @@ UIPopoverController *popover;
     
     NSLog(@"actionSubmitToConcur");
     
-    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Submit to Concur"
-                                                    message:@"Expense report has been submitted to Concur"
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Submit confirmation"
+                                                    message:@"Expense report has been submitted to Expense System"
                                                    delegate:self
                                           cancelButtonTitle:@"OK"
                                           otherButtonTitles:nil];
@@ -117,9 +115,6 @@ UIPopoverController *popover;
         //[alert addSubview:indicator];
         //[indicator release];
         */
-        
-        [[self labelAttendeeOne] setText:@"Lorie Thomas ( 0.606 )"];
-        [[self labelAttendeeTwo] setText:@"Neil Charney ( 0.616 )"];
     }
     
     // DRAW SQUARE AROUND FACE ....
