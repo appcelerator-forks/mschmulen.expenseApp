@@ -1,8 +1,20 @@
 
 
-##simple Expense App with photo and Concur submit
+##Simple Expense App with photo attachment
 
 
+
+
+Screen Shots
+
+Home Tab
+![Home Tab](https://raw.github.com/mschmulen/expenseApp/master/screenshots/image1.png)
+
+Expense Tab
+![Expense Tab](https://raw.github.com/mschmulen/expenseApp/master/screenshots/image2.png)
+
+Expense Detail
+![Expense Detail](https://raw.github.com/mschmulen/expenseApp/master/screenshots/image3.png)
 
 :::text
 Copyright October 2, 2013 Matt Schmulen
